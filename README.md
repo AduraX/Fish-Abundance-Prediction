@@ -19,9 +19,11 @@ Fisheries data is based on data collected by crew member on the vessel. As such 
 * **Effort_hr**: the hours spent in taking the catch on each occasion
 
 The catch rate or Catch per Unit of Effort (CPUE) is the catch per unit of effort over a time interval and defined:
+$$
 \begin{equation*}
 CPUE = \frac{C}{F} = q . B
-\end{equation*}
+\end{equation*}$$
+
 ***C = Catch(Kg),  F = Effort over time (hours), B = Population Abundance, q = Catchability***
 
 From the details given on the features and the equation above, to analyse population abundance I will undertake catch prediction using regression method based on gradient boosted decision trees.
